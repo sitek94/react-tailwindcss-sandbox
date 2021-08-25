@@ -1,6 +1,11 @@
 {
-  "name": "tailwind-sandbox",
-  "version": "0.1.0",
+  "name": "tailwindcss-template",
+  "description": "Create React App TypeScript template with TailwindCSS installed.",
+  "author": {
+    "email": "msitkowski94@gmail.com",
+    "name": "Maciek Sitkowski",
+    "url": "https://github.com/sitek94"
+  },
   "private": true,
   "dependencies": {
     "@craco/craco": "^6.2.0",
