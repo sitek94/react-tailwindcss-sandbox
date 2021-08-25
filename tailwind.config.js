@@ -5,7 +5,9 @@ module.exports = {
     extend: {},
   },
   variants: {
-    extend: {},
+    extend: {
+      width: ['focus'],
+    },
   },
-  plugins: [],
+  plugins: [require('@tailwindcss/forms')],
 };
