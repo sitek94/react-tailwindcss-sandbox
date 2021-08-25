@@ -6,7 +6,7 @@ First of all, I'm using the following script to start the app:
 
 ```json
 {
-  "start": "REACT_APP_APP_PATH=\"$npm_config_app\" craco start"
+  "start": "REACT_APP_APP_PATH=\"$npm_config_app_path\" craco start"
 }
 ```
 
@@ -38,7 +38,7 @@ To make it even easier and faster, I created a function in `~/.zshrc`:
 
 ```bash
 function nsa() {
-  npm start --app=\"$app_path\"
+  npm start --app_path=\"$1\"
 }
 ```
 
